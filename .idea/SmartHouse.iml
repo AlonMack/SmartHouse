@@ -61,7 +61,18 @@
     <content url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino/wiring_shift.c">
       <sourceFolder url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino/wiring_shift.c" isTestSource="false" />
     </content>
+    <content url="file://C:/Program Files (x86)/Arduino/libraries/VirtualWire/VirtualWire.cpp">
+      <sourceFolder url="file://C:/Program Files (x86)/Arduino/libraries/VirtualWire/VirtualWire.cpp" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/screen_yellow_blue_text/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/screen_yellow_blue_text/screen_yellow_blue_text.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wireless_send/wireless_send.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wireless_send/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/screen_yellow_blue_bentley/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/screen_yellow_blue_bentley/screen_yellow_blue_bentley.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wireless_get/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wireless_get/wireless_get.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/cmake/Platform/Arduino.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/cmake/ArduinoToolchain.cmake" isTestSource="false" />
@@ -83,21 +94,22 @@
       <library name="Header Search Paths">
         <CLASSES>
           <root url="file://C:/Program Files (x86)/Arduino/libraries" />
-          <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include-fixed" />
+          <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino" />
         </CLASSES>
         <SOURCES>
           <root url="file://C:/Program Files (x86)/Arduino/libraries" />
-          <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include-fixed" />
+          <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino" />
         </SOURCES>
         <excluded>
+          <root url="file://C:/Program Files (x86)/Arduino/libraries/VirtualWire/VirtualWire.cpp" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino/avr-libc/malloc.c" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino/avr-libc/realloc.c" />
           <root url="file://C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino/wiring_digital.c" />
